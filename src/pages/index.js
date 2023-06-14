@@ -6,7 +6,7 @@ export default function Home({ data }) {
   const blogs = data.allMarkdownRemark.nodes;
   return (
     <Layout>
-      <h1>Blog</h1>
+      <h1>Harnish Mistry</h1>
       {blogs.map((blog, index) => (
         <p key={index}>{blog.frontmatter.fullTitle}</p>
       ))}
