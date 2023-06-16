@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql, Link } from "gatsby";
@@ -17,6 +18,9 @@ export default function Blog({ data }) {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Blog | {blog.frontmatter.title} | Harnish Mistry</title>
+      </Helmet>
       <div className={["container", styles.blog].join(" ")}>
         <div className={styles.whitespace}></div>
         <Link to="/">

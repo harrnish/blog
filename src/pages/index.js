@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import * as styles from "../styles/pages/index.module.css";
 
@@ -11,6 +12,9 @@ export default function Home({ data }) {
   const blogs = data.allMarkdownRemark.nodes;
   return (
     <Layout>
+      <Helmet>
+        <title>Harnish Mistry</title>
+      </Helmet>
       <div className={styles.header}>
         <img
           src={Portrait}

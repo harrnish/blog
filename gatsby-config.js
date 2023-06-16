@@ -8,6 +8,12 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  siteMetadata: {
+    title: `Harnish Mistry`,
+    siteUrl: `https://www.harrnish.com`,
+    description: `Boring blog that I might occasionally use to document random things I
+    might learn.`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -32,6 +38,7 @@ module.exports = {
         jsFrontmatterEngine: false,
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
