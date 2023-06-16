@@ -31,3 +31,7 @@ p#backButton {
 .blog strong {
   font-weight: 600;
 }
+
+.blog .imgContainer {
+  margin: 2em 0;
+}

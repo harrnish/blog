@@ -84,6 +84,6 @@ a,
 a:visited,
 a:active,
 a:hover {
-  color: steelblue;
+  color: rgb(48, 105, 151);
   text-decoration: underline;
 }
