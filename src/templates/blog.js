@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql, Link } from "gatsby";
 import * as styles from "../styles/templates/blog.module.css";
 
@@ -7,7 +8,24 @@ export default function Blog({ data }) {
   const blog = data.markdownRemark;
   return (
     <Layout>
-      <h1>{blog.frontmatter.title}</h1>
+      <div className="container">
+        <Link to="/">
+          <p>Back</p>
+        </Link>
+        <h1>{blog.frontmatter.title}</h1>
+        <div className={styles.imgContainer}>
+          <GatsbyImage
+            image={blog.frontmatter.img.childImageSharp.gatsbyImageData}
+            alt={blog.frontmatter.title}
+            className={styles.postImg}
+            quality={100}
+          />
+        </div>
+        <div
+          className={styles.htmlRender}
+          dangerouslySetInnerHTML={{ __html: blog.html }}
+        ></div>
+      </div>
     </Layout>
   );
 }
