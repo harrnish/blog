@@ -1,0 +1,44 @@
+---
+title: Building Codegrid - My Adventures In Web Design
+desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+slug: building-codegrid
+date: 1686901120
+img: ../images/lofi-room.jpg
+alt: A room with a bed and a desk
+---
+
+Ever since my college days, the idea of having my own blog had been simmering in my mind. I made a few attempts to pursue it, but my inconsistency got the better of me. If you've been keeping up with me on social media, you probably know that consistency is not exactly my forte! Despite my shortcomings, I'm making one more attempt to get this ball rolling with my latest project - this blog. And what better way to kick things off than by sharing my experience building [Codegrid](https://www.youtube.com/channel/UC7pVho4O31FyfQsZdXWejEw)?
+
+## The Genesis
+
+Back in 2017, I was knee-deep in my third year of Computer Engineering at college in India. Making bank on YouTube with a huge subscriber base was the furthest thing from my mind. Sure, I did a bit of freelancing with my buddies to earn some extra bucks, but YouTube wasn't even on my radar at the time. What I did have, however, was a course on web design and development that taught me the basics of building websites using HTML, CSS, JavaScript, and PHP.
+
+As someone with a keen eye for creativity, I've always enjoyed indulging in artistic pursuits like photography, [cinematography](https://www.youtube.com/channel/UC7mSvHkEAh7fbDUOhqdbL-g) and graphic design. So, one fine day, I decided to take a break and spend some leisurely time browsing creative websites online. And that's when I stumbled upon Awwwards - almost by chance. The websites I came across on this professional online design and development platform blew me away. In case you aren't aware, [Awwwards](https://www.awwwards.com/) is a global competition body that recognizes and celebrates the best in innovative web design. They feature websites created by some of the most renowned designers and developers from around the world.
+
+After poring over countless websites on Awwwards, I was itching to learn how to create layouts and animations that were just as impressive. Sadly, the web design topics covered in my college curriculum were too basic and lacked the creative flair I was after. So, I turned to trusty YouTube to get a crash course on web design and find out what I needed to know. To my surprise, there weren't too many videos or tutorials out there that explained how to create websites like the ones I had seen on Awwwards.
+
+It was then that I had an epiphany - why not create my own YouTube channel and share how to turn these cool animations and concepts into actual code? After all, there must be others out there like me who are just starting out and looking for resources to help them build websites that pack a punch. And that's how **Codegrid was born**. I still remember the day I came up with the name - it was a bit of a random mishmash of words that popped into my head!
+
+![Dark room with a pc and raining outside](https://steamuserimages-a.akamaihd.net/ugc/945094571616867748/680E4979CC75A2310664E0883F3F3FC6CBECA3BE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+
+Codegrid began as a documentation of my journey in learning and creating, way back on September 27, 2017. Its mission is to unite passion with experience, and to transform wild ideas into meaningful designs that catch the eye. By sharing my knowledge of web design and development with a modern twist, I aimed to help others make their mark in the digital world with striking visuals and creative flair.
+
+## Milestones and Challenges
+
+When I began my journey on Codegrid, all I could do was center text with CSS - that's it! But that didn't stop me from making my first video: Centering The Text | HTML & CSS. Starting out is always the toughest part, especially when you lack experience and everyone else seems to be a pro. But I was lucky - my biggest challenge wasn't getting started, it was staying consistent. With 2-3 videos a week, I was churning out simple tutorials on forms and text animations. Eight months later, I had built an impressive repertoire of videos, all while maintaining the consistency I had never achieved before.
+
+In January 2018, just four months after starting the Codegrid channel, it had already accumulated about 40,000 total views and reached its first milestone of **1,000 subscribers**. It was clear that the channel was gaining traction, as views continued to pour in. One of the videos, "Sticky Navbar," had racked up an impressive 100,000 views in just four months. By April 2019, Codegrid had hit **10,000 subscribers**, a testament to its growing popularity and the valuable content it provided.
+
+When it comes to creating content for YouTube, the ultimate goal for many creators is to monetize their channels. And let's face it, who wouldn't want to earn some extra cash while doing something they love? But getting to that point isn't always easy. To be eligible for monetization, a channel needs to have 1000 subscribers and 4000 hours of watch time in the previous year, according to YouTube's policies. It took me almost 10 months to reach this requirement, but when I finally did, my channel started generating income in July 2018. It was a great feeling to see my hard work paying off, and to finally see some monetary reward for my efforts. But as I've mentioned before, the real challenge for me wasn't the beginning. It was maintaining consistency over time. Despite my initial worries, I was able to gain momentum quickly, reaching **50,000 subscribers** and nearly 2 million total views by November 2018.
+
+As time passed, I noticed an improvement in my design and video editing skills - a far cry from the early days when all I knew was how to center text with CSS. I was proud of the progress I had made, but deep down, I knew that one viral video could change everything for my channel. And it did. The [CSS Parallax Effect](https://www.youtube.com/watch?v=6CQ7DYni7Bg) video was a game-changer, raking in a whopping 700,000 views and skyrocketing my subscriber count. However, my lack of consistency started to get in the way, and I found myself taking more breaks from video production. As a result, my engagement began to wane, and it took me a painstaking three years to gain an additional 50,000 subscribers, highlighting the importance of regular content creation.
+
+## The Reflections
+
+By the time of writing, the channel's subscriber count is currently at a healthy **107,000**, but it seems to have hit a plateau. I've always been striving to create top-notch content, at least since last year. If I'm not satisfied with the aesthetics, I won't hit the publish button, although it's not the best strategy. However, I eventually realized that quality isn't the only factor that counts. Quantity matters a great deal on YouTube. Your audience is more likely to engage with you if you produce more content. Also, frequent uploads can boost your video's visibility in search results. Don't get me wrong; I'm not saying you should upload any low-quality video just to fill up your channel. Striking a balance between quality and quantity is key. Nevertheless, in my five years of experience on YouTube, I've learned that quantity does matter.
+
+![Sunny morning and a guy looking outside](https://i.ibb.co/m8vLbmR/new-beginnings.jpg)
+
+Throughout my journey, I've learned a lot about myself and the importance of consistency. It's true that motivation can be fleeting, but discipline is what drives progress. Despite knowing this, I still struggled with maintaining a regular upload schedule. I felt a strong desire to focus solely on improving my skills, which only added to my inconsistency. There were moments when I even considered abandoning the channel altogether, unsure of what to do next. However, in December of last year, I made the decision to persevere. I had put too much time and effort into building this channel to give up now. So, I got back in the game and started creating content again, committing to two videos a week starting in January 2023. If you're reading this, then you're likely familiar with my channel, so I won't ask you to [check it out](https://www.youtube.com/channel/UC7pVho4O31FyfQsZdXWejEw) again.
+
+Thank you for continuing to read my blog post, it means a lot to me. I want to clarify that my intention with this post was not to brag about my channel, despite the word "building" being in the title. I simply wanted to share my journey and express my gratitude to those who have supported me along the way. You were the reason I was able to build my channel to a degree I had never anticipated. So, from the bottom of my heart, thank you.

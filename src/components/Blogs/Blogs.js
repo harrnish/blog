@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
-import * as styles from "./BlogPost.module.css";
+import * as styles from "./Blogs.module.css";
 
 function formatDate(date) {
   let newDate = new Date(date * 1000).toDateString();
@@ -10,26 +9,26 @@ function formatDate(date) {
   return newDate[2] + " " + newDate[1] + ", " + newDate[3];
 }
 
-const BlogPost = ({ data }) => {
+const Blogs = ({ data }) => {
   return (
     <div className={styles.postContainer}>
       <div className={styles.post}>
-        <Link to={"/blog/" + data.frontmatter.slug}>
+        {/* <Link to={"/blog/" + data.frontmatter.slug}>
           <GatsbyImage
             image={data.frontmatter.img.childImageSharp.gatsbyImageData}
             alt={data.frontmatter.title}
             className={styles.postImg}
             quality={100}
           />
-        </Link>
-        <p>{formatDate(data.frontmatter.date)}</p>
+        </Link> */}
         <Link to={"/blog/" + data.frontmatter.slug}>
-          <h1 className={styles.postTitle}>{data.frontmatter.title}</h1>
+          <h2 className={styles.title}>{data.frontmatter.title}</h2>
         </Link>
-        <p className={styles.postDesc}>{data.frontmatter.desc}</p>
+        <p className={styles.date}>{formatDate(data.frontmatter.date)}</p>
+        {/* <p className={styles.postDesc}>{data.frontmatter.desc}</p> */}
       </div>
     </div>
   );
 };
 
-export default BlogPost;
+export default Blogs;

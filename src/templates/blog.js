@@ -7,17 +7,33 @@ import * as styles from "../styles/templates/blog.module.css";
 export default function Blog({ data }) {
   const blog = data.markdownRemark;
   const html = blog.html.replace(/\n/g, "<br />");
+
+  function formatDate(date) {
+    let newDate = new Date(date * 1000).toDateString();
+    newDate = newDate.split(" ");
+
+    return newDate[2] + " " + newDate[1] + ", " + newDate[3];
+  }
+
   return (
     <Layout>
-      <div className="container">
+      <div className={["container", styles.blog].join(" ")}>
+        <div className={styles.whitespace}></div>
         <Link to="/">
-          <p>Back</p>
+          <p id={styles.backButton}>Back</p>
         </Link>
-        <h1>{blog.frontmatter.title}</h1>
+        <div className={styles.blogTitle}>
+          <h1>{blog.frontmatter.title}</h1>
+        </div>
+        <div>
+          <div className={styles.blogDate}>
+            <p className={styles.date}>{formatDate(blog.frontmatter.date)}</p>
+          </div>
+        </div>
         <div className={styles.imgContainer}>
           <GatsbyImage
             image={blog.frontmatter.img.childImageSharp.gatsbyImageData}
-            alt={blog.frontmatter.title}
+            alt={blog.frontmatter.alt}
             className={styles.postImg}
             quality={100}
           />
@@ -26,6 +42,7 @@ export default function Blog({ data }) {
           className={styles.htmlRender}
           dangerouslySetInnerHTML={{ __html: html }}
         ></div>
+        <div className={styles.whitespace}></div>
       </div>
     </Layout>
   );
@@ -38,19 +55,17 @@ export const query = graphql`
       frontmatter {
         date
         desc
-        fullTitle
+        alt
+        title
         img {
           childImageSharp {
             gatsbyImageData(
               placeholder: BLURRED
               transformOptions: { fit: FILL }
-              width: 700
-              height: 500
             )
           }
         }
         slug
-        title
       }
     }
   }

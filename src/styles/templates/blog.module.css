@@ -1,0 +1,33 @@
+.whitespace {
+  width: 100%;
+  height: 150px;
+}
+
+p#backButton {
+  padding: 0.25em 0;
+  margin-bottom: 4em;
+  text-decoration: underline;
+}
+
+.blogTitle {
+  margin-bottom: 1.5em;
+}
+
+.blogDate {
+  color: gray;
+  margin-bottom: 2em;
+}
+
+.blog img {
+  padding: 1em 0;
+  width: 100%;
+}
+
+.blog h2 {
+  margin-top: 1.5em;
+  font-size: 1.5em;
+}
+
+.blog strong {
+  font-weight: 600;
+}
