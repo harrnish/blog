@@ -2,6 +2,7 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import * as styles from "../styles/pages/index.module.css";
+import { inject } from "@vercel/analytics";
 
 import Portrait from "../images/portrait.jpg";
 
@@ -9,6 +10,8 @@ import Blogs from "../components/Blogs/Blogs";
 import { graphql } from "gatsby";
 
 export default function Home({ data }) {
+  inject();
+
   const blogs = data.allMarkdownRemark.nodes;
   return (
     <Layout>
