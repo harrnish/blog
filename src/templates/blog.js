@@ -6,6 +6,7 @@ import * as styles from "../styles/templates/blog.module.css";
 
 export default function Blog({ data }) {
   const blog = data.markdownRemark;
+  const html = blog.html.replace(/\n/g, "<br />");
   return (
     <Layout>
       <div className="container">
@@ -23,7 +24,7 @@ export default function Blog({ data }) {
         </div>
         <div
           className={styles.htmlRender}
-          dangerouslySetInnerHTML={{ __html: blog.html }}
+          dangerouslySetInnerHTML={{ __html: html }}
         ></div>
       </div>
     </Layout>
