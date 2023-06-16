@@ -36,16 +36,6 @@
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1140px;
-  padding: 0 1em;
-  border: 1px solid red;
-}
-
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-  color: inherit;
+  max-width: 840px;
+  padding: 0 1.25em;
 }
