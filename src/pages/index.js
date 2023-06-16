@@ -23,8 +23,8 @@ export default function Home({ data }) {
         />
         <h1>Harnish Mistry</h1>
         <p>
-          Boring blog that I might occasionally use to document random things I
-          might learn.
+          Boring blog that I might occasionally use to document the random stuff
+          I might learn.
         </p>
       </div>
       <section className={["container", styles.blogs].join(" ")}>

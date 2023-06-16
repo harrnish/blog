@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Harnish Mistry`,
-    siteUrl: `https://www.harrnish.com`,
-    description: `Boring blog that I might occasionally use to document random things I
-    might learn.`,
+    title: "Harnish Mistry",
+    siteUrl: "https://www.harrnish.com",
+    description:
+      "Boring blog that I might occasionally use to document the random stuff I might learn.",
   },
   plugins: [
     {
