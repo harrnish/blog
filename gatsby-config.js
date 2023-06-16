@@ -16,6 +16,10 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "@vercel/gatsby-plugin-vercel-analytics",
+    },
+
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blogs`,
